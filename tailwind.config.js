@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       content: {
-        nft: 'url("/images/icon-ethereum.svg")',
-        clock: 'url("/images/icon-clock.svg")',
-        avatar: 'url("/images/image-avatar.png")',
+        nft: 'url("./images/icon-ethereum.svg")',
+        clock: 'url("./images/icon-clock.svg")',
+        avatar: 'url("./images/image-avatar.png")',
       },
       colors: {
         mainBG: "hsl(217, 54%, 11%)",
