@@ -11,31 +11,63 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Outfit"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./output.css" />
 
     <title>Frontend Mentor | NFT preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-  <body>
-    Equilibrium #3429 Our Equilibrium collection promotes balance and calm.
-    0.041 ETH 3 days left Creation of Jules Wyvern
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Anmol Singh Tuteja</a>.
+  <body class="flex items-center justify-center h-screen bg-mainBG">
+    <div class="w-72 bg-cardBG rounded-xl p-5 drop-shadow-2xl">
+      <div class="relative">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium image"
+          class="rounded-lg"
+        />
+        <div
+          class="absolute rounded-lg inset-0 opacity-0 hover:opacity-100 transition-opacity flex items-center bg-cyanImg"
+        >
+          <img
+            src="./images/icon-view.svg"
+            alt="Overlay Image"
+            class="mx-auto"
+          />
+        </div>
+      </div>
+      <p class="text-white mt-5 font-bold font-outfit hover:text-cyanText">
+        Equilibrium #3429
+      </p>
+      <p class="text-text font-outfit text-sm mt-3">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="flex justify-between mt-4">
+        <div class="before:content-nft flex">
+          <p class="font-outfit text-sm text-cyanText ml-2">0.041 ETH</p>
+        </div>
+        <div class="before:content-clock flex">
+          <p class="font-outfit text-sm text-text ml-2">3 days left</p>
+        </div>
+      </div>
+      <div class="flex justify-center mt-3">
+        <hr class="w-64 border-line" />
+      </div>
+      <div class="flex mt-3 items-center">
+        <img
+          src="/images/image-avatar.png"
+          class="w-7 border-white border rounded-full mr-3"
+          alt="avatar image"
+        />
+        <p class="text-text font-outfit text-sm">
+          Creation of
+          <span class="text-white hover:text-cyanText">Jules Wyvern</span>
+        </p>
+      </div>
     </div>
   </body>
 </html>
