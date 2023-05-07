@@ -1967,11 +1967,11 @@ video {
   }
 }
 .before\:content-clock::before {
-  --tw-content: url("/images/icon-clock.svg");
+  --tw-content: url("./images/icon-clock.svg");
   content: var(--tw-content);
 }
 .before\:content-nft::before {
-  --tw-content: url("/images/icon-ethereum.svg");
+  --tw-content: url("./images/icon-ethereum.svg");
   content: var(--tw-content);
 }
 .hover\:font-bold:hover {
