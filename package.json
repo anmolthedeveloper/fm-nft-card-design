@@ -4,9 +4,22 @@
   "description": "![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "postcss ./tailwind.css -o ./output.css --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "ATD",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolthedeveloper/frontend-mentor-nft-card-design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anmolthedeveloper/frontend-mentor-nft-card-design/issues"
+  },
+  "homepage": "https://github.com/anmolthedeveloper/frontend-mentor-nft-card-design#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2"
+  }
 }
